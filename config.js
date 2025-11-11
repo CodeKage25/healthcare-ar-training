@@ -106,7 +106,7 @@ const CONFIG = {
     // AI Coaching 
     aiCoaching: {
         enabled: true,               
-        apiKey: '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',                   
+        apiKey: '',                   
         model: 'anthropic/claude-3.5-sonnet',
         baseURL: 'https://openrouter.ai/api/v1',
         maxFeedbackPerSession: 5,
