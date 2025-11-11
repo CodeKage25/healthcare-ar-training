@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+venv/
+env/
+ENV/
+*.log
+
+# Backend specific
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/yolov8n.pt
+backend/.env
+backend/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Certificates (keep these local only for security)
+*.pem
+*.key
+*.crt
+cert.pem
+key.pem
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cloud deployment
+.gcloudignore
+.deployment_config
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Node modules (if you add any JS build tools later)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Model files (YOLO downloads automatically)
+*.pt
+*.onnx
+*.tflite
+*.pb
+
+# Cache
+.cache/
+*.cache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
