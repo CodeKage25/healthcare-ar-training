@@ -75,7 +75,7 @@ This system provides interactive, AR-enhanced training for proper hand washing t
 │  └── config.js                                              │
 └─────────────────────────────────────────────────────────────┘
 
-                           │ Optional API Calls
+                           │ API Calls
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
 │  Cloud Run Backend (FastAPI)                                │
